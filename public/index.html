@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="tictactoe.js"></script>
+        <link rel="stylesheet" href="main.css"></link>
+    </head>
+    <body>
+        <h2>Tic Tac Toe</h2>
+        <div id="createContainer">
+            <button id="createGame">Create Game</button>
+            <h2><a id="gameURL"></a></h2>
+            <h2 id="gameShare"></h2>
+        </div>
+        <div id="gameContainer">
+            <h4 id="status"></h4>
+            <h4 id="myPlayer"></h4>
+            <div class="container">
+                <div id="playerInfo" class="playerInfo">
+                    <div>
+                        <label id="player1" class="playerName"></label>
+                        <label id="player1Score" class="score">0</label>
+                    </div>
+                    <label>VS</label>
+                    <div>
+                        <label id="player2Score" class="score">0</label>
+                        <label id="player2" class="playerName"></label>
+                    </div>
+                </div>
+                <div id="board" class="board"></div>
+            </div>
+            <button id="newGame">New Game</button>
+        <div>
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-firestore.js"></script>
+    </body>
+</html>

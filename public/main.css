@@ -1,0 +1,56 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    border: 1px black solid;
+    width: 200px;
+    height: 200px;
+    margin: -1px 0 0 -1px;
+    font-size: 10rem;
+}
+
+
+.playerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.playerInfo > * {
+    margin-right: 1em;
+}
+
+.playerName {
+    font-size: 1.2rem;
+    display: block;
+}
+
+.score {
+    font-size: 1.1rem;
+}
+
+#gameContainer {
+    display: none;
+}
+
+button {
+    font-size: 1.5rem;
+    margin: 0.5em;
+}
